@@ -2,7 +2,6 @@
   "name": "recipe-app",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://api.edamam.com",
   "dependencies": {
     "@craco/craco": "^6.1.1",
     "@testing-library/jest-dom": "^5.11.10",

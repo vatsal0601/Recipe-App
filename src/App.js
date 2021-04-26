@@ -31,7 +31,9 @@ function App() {
 		const getRecipe = async () => {
 			const APP_ID = "243087a8";
 			const APP_KEY = "8dd678972216a15320639aa248c0b1bc";
-			const response = await fetch(`/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`);
+			const response = await fetch(
+				`https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`
+			);
 			const data = await response.json();
 			setRecipes(data.hits);
 		};
