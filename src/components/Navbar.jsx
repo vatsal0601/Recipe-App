@@ -14,7 +14,7 @@ const Navbar = ({ toggle }) => {
 				</Link>
 				<ul className="hidden md:flex gap-7 font-semibold">
 					<li className="text-gray-600 hover:text-green-600 transition-colors">
-						<a href="https://github.com/">GitHub</a>
+						<a href="https://github.com/vatsal0601/Recipe-App">GitHub</a>
 					</li>
 					<Link to="/about">
 						<li className="text-gray-600 hover:text-green-600 transition-colors">About</li>
